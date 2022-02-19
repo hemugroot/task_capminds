@@ -57,12 +57,14 @@ export const LoginPage = () => {
                     onChange={handleUser}
                     // error={email === "" ? true : false}
                     required
+                    helperText="use email : hemu793@gmail.com"
                   />
                   <TextField
                     size="small"
                     placeholder="Password"
                     value={pass}
                     onChange={handlePass}
+                    helperText="Password : Pass@123"
                     // error={pass === "" ? true : false}
                     required
                   />
