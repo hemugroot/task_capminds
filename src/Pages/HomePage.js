@@ -11,7 +11,6 @@ const HomePage = () => {
     setUser("");
     history.push("/");
   };
-
   return (
     <div
       style={{

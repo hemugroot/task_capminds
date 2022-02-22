@@ -41,7 +41,7 @@ export const DataProvider = ({ children }) => {
       .post(url, params)
       .then((res) => {
         setUser(res.data[0]["UserName"]);
-        history.push("/home");
+        history.push("/");
       })
       .catch((er) => {
         history.push("/signup");
